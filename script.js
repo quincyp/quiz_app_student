@@ -27,6 +27,7 @@
 
 
 // === Create the showQuestion function
+// 0. Call on clearQuestions [this will be made later, but we will clear the questions before showing the next]
 // 13. Create a currentQuestion variable set to the index var in the questions array
 // 14. Update the questionText.innerHTML to your currentQuestion.question
 // 15. Loop through the currentQuestion.answers
@@ -48,7 +49,7 @@
 
 
 // === Create clearQuestions function
-// 26. nextButton.getElementsByClassName.display = "none"
+// 26. nextButton.style.display = "none"
 // 27. while(answerButtons.firstChild) {answerButtons.removeChild(answerButtons.firstChild);}
 
 
